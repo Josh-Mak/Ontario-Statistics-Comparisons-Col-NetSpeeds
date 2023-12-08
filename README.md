@@ -1,7 +1,7 @@
 # Ontario-Statistics-Comparisons-Col-NetSpeeds
 A simple data analysis project looking at the cost of living and internet quality across Ontarian cities.
 
-**Intro**: I made this project to help me learn working with data using pandas. It compares webscraped cost of living data to internet quality/speed data from StatsCan, and graphs the results to see which cities have the best cost of living while still having 50/10 Mbps internet speeds. The project uses pandas, Pickle, requests, bs4, and matplotlib.
+**Intro**: I made this project to help me learn working with data using pandas. It compares internet quality/speed data from StatsCan to webscraped cost of living data, and graphs the results to see which cities have the best cost of living while still having 50/10 Mbps internet speeds. The project uses pandas, Pickle, requests, bs4, and matplotlib.
 
 **Technical Overview**:
   1. In col_data.py, cost of living data is webscraped using requests and BeautifulSoup, and stored in a dictionary with pickle.
